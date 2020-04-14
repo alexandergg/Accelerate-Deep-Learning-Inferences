@@ -11,6 +11,6 @@ description: "TensorFlow model optimization using TensorRT and TF-Lite"
 
 # Model Optimizations
 
-## Tensorflow - TF-Lite
+## TF-Lite
 
-## Tensorflow - TF-TRT
+## TF-TRT
