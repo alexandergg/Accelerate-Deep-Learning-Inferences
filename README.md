@@ -50,9 +50,16 @@ If we use Colab, we have a full Linux environment and completely access to a fre
 
 If you have Linux OS, use tensorflow-gpu>=2.0. (Support TensorRT)
 
+## TF-Lite Quantized Int8 Model to Edge TPU
+
+Open the notebook at https://colab.research.google.com/
+
+In this notebook you can compile your TF-Lite int8 quantized model into TPU Compiler. Specially, this step is to obtain a model compiled to use, for example into Coral Dev Board or any device with [TPU](https://coral.ai/docs/edgetpu/compiler/) (**Tensor Preprocessor Unit**) 
+
+
 ### References
 
-Thanks to **Tensorflow** Communnity:
+Thanks to **Tensorflow** Communnity, keep growing!!
 
 - [Tensorflow 2.0](https://www.tensorflow.org/learn)
 - [TF Optimization Toolkit](https://www.tensorflow.org/lite/guide/get_started)
