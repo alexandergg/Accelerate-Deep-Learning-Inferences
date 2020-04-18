@@ -29,15 +29,9 @@ By running this project, you will have the opportunity to work with Tensorflow o
 
 To create the virual environment, we need to have anaconda installed in our computer. It can be downloaded in this [link](https://www.anaconda.com/download/)
 
-    - Instalation: https://www.anaconda.com/distribution/
-    - Conda commands to create local env by environment.yml: ```conda env create -f environment.yml```
-    - Set conda env into jupyter notebook: ```python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"```
-
-To create the environment, first you will need to create a conda environment:
-
-Find `environment.yml` and execute the following command:
-
-`conda create --name <environment_name>`
+- Instalation: https://www.anaconda.com/distribution/
+- Conda commands to create local env by environment.yml: ```conda env create -f environment.yml```
+- Set conda env into jupyter notebook: ```python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"```
 
 Once the environment is created, to activate it:
 
@@ -61,5 +55,5 @@ If you have Linux OS, use tensorflow-gpu>=2.0. (Support TensorRT)
 Thanks to **Tensorflow** Communnity:
 
 - [Tensorflow 2.0](https://www.tensorflow.org/learn)
-- [Tf Optimization Toolkit](https://www.tensorflow.org/lite/guide/get_started)
+- [TF Optimization Toolkit](https://www.tensorflow.org/lite/guide/get_started)
 - [NVIDIA TensorRT](https://developer.nvidia.com/tensorrt)
