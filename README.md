@@ -41,6 +41,12 @@ To deactivate the environment:
 
 `conda deactivate <environment-name>`
 
+## Virtual environment to execute tf-malaria notebook
+
+Same environment like tflie notebook
+To train tf-malaria we need to download dataset from: ftp://lhcftp.nlm.nih.gov/Open-Access-Datasets/Malaria/cell_images.zip
+!pip install split_folders
+
 ## Virtual environment to execute tensorrt notebook
 
 Open the notebook at https://colab.research.google.com/
@@ -50,7 +56,13 @@ If we use Colab, we have a full Linux environment and completely access to a fre
 
 If you have Linux OS, use tensorflow-gpu>=2.0. (Support TensorRT)
 
-## TF-Lite Quantized Int8 Model to Edge TPU
+To execute correctly the notebook on Colab we have to upload three folders:
+
+- images (document images)
+- malaria_model (trained model in tf-malaria notebook)
+- test (test malaria images)
+
+## TF-Lite Quantized Int8 Model to Edge TPU notebook
 
 Open the notebook at https://colab.research.google.com/
 
